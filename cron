@@ -1,0 +1,8 @@
+ ~/dashcore-0.12.3/bin/dashd --daemon
+ sleep 60
+ cd ~/git_tree/python-tools/
+ python export.py dash 
+ python export.py dash --vacuum 
+ python export.py dash --add-index
+ python csvgen.py dash 
+  ~/dashcore-0.12.3/bin/dash-cli stop

@@ -1,0 +1,16 @@
+{
+  "db": {
+    "user": "postgres",
+    "password": "",
+    "database": "dashnode",
+    "host": "localhost"
+  },
+  "nodes": {
+    "dash": {
+      "user": "",
+      "password": "",
+      "port": "9998",
+      "host": "127.0.0.1"
+    }
+  }
+}
