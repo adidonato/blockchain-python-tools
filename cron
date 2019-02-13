@@ -1,19 +1,8 @@
+ ~/dashcore-0.12.3/bin/dashd --daemon
  sleep 60
- cd ~/git_tree/blockchain-python-tools/
+ cd ~/git_tree/python-tools/
  python export.py dash 
- sleep 10 
  python export.py dash --vacuum 
- sleep 10 
  python export.py dash --add-index
- sleep 10 
- python csvgen.py dash
- sleep 10 
- python prices.py
- sleep 10 
- python dashradar.py
- sleep 10 
- python volatility.py
- sleep 10 
- python decentralized.py
- sleep 10 
- python stats_flat.py
+ python csvgen.py dash 
+  ~/dashcore-0.12.3/bin/dash-cli stop
