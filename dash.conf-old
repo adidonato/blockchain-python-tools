@@ -1,0 +1,16 @@
+rpcclienttimeout=1
+rpcworkqueue=10000
+whitelist=127.0.0.1
+server=1
+txindex=1
+addressindex=1
+timestampindex=1
+spentindex=1
+rpcallowip=127.0.0.1
+statshost=127.0.0.1
+statsport=8125
+rpcthreads=32
+rpcuser=dashrpc
+rpcpassword=6619ddce7993090773cffab5fbad94fc
+blocknotify=/root/git_tree/dash/src/dash-cli getmininginfo && sleep 30 && /root/git_tree/dash/src/dash-cli gettxoutsetinfo
+
